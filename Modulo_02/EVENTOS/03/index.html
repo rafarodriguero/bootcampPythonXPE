@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./css/styles.css">
+    <title>Aula 3 - Eventos </title>
+</head>
+<body onLoad="load()">
+    <!-- onChange
+    onClick
+    onLoad
+    onMouseOver
+    onMouseOut
+    onSubmit -->
+
+    <form onSubmit="sub()">
+        <input type="text" id="ip">
+        <input type="submit" onSubmit="submit()">
+    </form>
+
+    <br><br><br>
+    <img onMouseOut="mouseOut()" src="" alt="praia" id="img1">
+
+    <script>
+        function change() {
+            alert("Algo mudou!");
+        }
+
+        function clicar() {
+            alert(document.getElementById("ip").value)
+        }
+
+        function load(){
+            document.getElementById("img1").src = "./img/Angra-dos-Reis-Dentista-bx.webp"
+        }
+
+        function mouseOver(){
+            document.getElementById("img1").src = "./img/shutterstock_1402690595.jpg"
+        }
+        function mouseOut(){
+            document.getElementById("img1").src = "./img/shutterstock_1402690595.jpg"
+        }
+
+        function sub(){
+            alert(document.getElementById("ip").value)
+        }
+    </script>
+</body>
+</html>

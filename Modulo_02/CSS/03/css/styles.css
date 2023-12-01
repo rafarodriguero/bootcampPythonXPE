@@ -1,0 +1,24 @@
+h1 {
+    background-color: red;
+    font-size: 50px; 
+    font-family: 'Courier New', Courier, monospace;
+    }
+
+h2 {
+    background-color: yellowgreen;
+    font-size: 30px; 
+    font-family: 'Courier New', Courier, monospace;
+}
+
+#primeiro{
+    background-color: burlywood;
+}
+
+.escolhido{
+    background-color: goldenrod;
+}
+
+p {
+    background-color: red;
+    font-family: 'Courier New', Courier, monospace;
+}

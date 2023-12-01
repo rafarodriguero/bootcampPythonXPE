@@ -1,0 +1,20 @@
+h2 {
+    position: static;
+    border: 3px solid blue;
+}
+
+div.relative{
+    position: relative;
+    width: 1000px;
+    height: 200px;
+    border: 3px solid red;
+}
+
+div.absolute{
+    position: absolute;
+    top: 70px;
+    right: 100px;
+    width: 850px;
+    height: 10px;
+    border: 3px solid red;
+}
