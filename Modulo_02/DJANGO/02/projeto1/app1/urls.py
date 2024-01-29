@@ -1,7 +1,6 @@
 from django.urls import path
-from .views import index, create
+from .views import index
 
 urlpatterns = [
-    path('', index, name='index'),
-    path('criar/', create, name='criar'),
+    path('',index,name='index'),
 ]
